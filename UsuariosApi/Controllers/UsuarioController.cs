@@ -32,6 +32,5 @@ namespace UsuariosApi.Controllers
             var token = await _usuarioService.Login(dto);
             return Ok(token);
         }
-
     }
 }
